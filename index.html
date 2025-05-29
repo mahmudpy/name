@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MateDesigners</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: white;
+      color: #111;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #333;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      margin: 1rem 0 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #666;
+      padding: 0 1rem 1rem;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.2rem; }
+      .hero h2 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🌀</div>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Work</a>
+      <a href="#">Blog</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>We are your</h1>
+    <h2>MateDesigners</h2>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Be+Positive" alt="">
+      <h3>Ghost UXWriter</h3>
+      <p>All of us, designers, at least once per career became an illustrator, copywriter and only God knows what else.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Ocean+Reel" alt="">
+      <h3>Content Reel</h3>
+      <p>Useful and interesting appearance, but when we have some time limits we need a special magic.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Status+Annotations" alt="">
+      <h3>Status Annotations</h3>
+      <p>Out of the question of its useful and interesting appearance, we need a special magic.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Forest+Path" alt="">
+      <h3>Ghost UXWriter</h3>
+      <p>All of us, designers, at least once per career became an illustrator, copywriter and only God knows what else.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Green+Fields" alt="">
+      <h3>Content Reel</h3>
+      <p>Useful and interesting appearance, but when we have some time limits we need a special magic.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=Mountains" alt="">
+      <h3>Status Annotations</h3>
+      <p>Out of the question of its useful and interesting appearance, we need a special magic.</p>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Work</a>
+    <a href="#">Blog</a>
+  </footer>
+</body>
+</html>
